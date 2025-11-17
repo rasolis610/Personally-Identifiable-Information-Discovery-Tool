@@ -4,6 +4,8 @@
  Pyhton Script to find PII Data
  Modify on 11-06-2025
  Version 2.7
+ username=Username
+ password=Password
 """
 
     
@@ -199,7 +201,7 @@ def main_code():
         styles = getSampleStyleSheet()
         title_style = styles["Title"]
         title_style.textColor = colors.red
-        story = [Paragraph("Report PII Data Discovery Found - PPS © 2024", title_style)]
+        story = [Paragraph("Report PII Data Discovery Found", title_style)]
         story.append(Paragraph("""***Confidentiality Disclaimer***      The information contained within this report, document, or
         communication originating from this source is the exclusive property of the IT Department.
         It is intended solely for the designated recipient(s) and is considered confidential. If you have received this information
@@ -296,3 +298,4 @@ def main_code():
 
 if __name__ == "__main__":
     main_code()
+
