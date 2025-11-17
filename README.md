@@ -2,6 +2,11 @@
 Personally Identifiable Information--PII Data Discovery
 
 PII Data Discovery Tool
+Username=Username
+Password=Password
+
+
+
 
 **Version 2.7 — Updated 11/06/2025**
 **Created by: Ramón Solís**
